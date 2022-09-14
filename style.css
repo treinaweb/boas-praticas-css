@@ -1,5 +1,15 @@
-#teste {
-    color: red;
-    background-color: black;
-    font-size: 1.5rem;
+.btn-default {
+    padding: 5px 20px;
+    font-size: 1.2rem;
+    border-radius: 5px;
+}
+
+.btn-green {
+    color: black;
+    background-color: green;
+}
+
+.btn-blue {
+    color: white;
+    background-color: blue;
 }
