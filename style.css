@@ -13,3 +13,36 @@
     color: white;
     background-color: blue;
 }
+
+.blocos {
+    display: flex;
+    flex-direction: row;
+    border: solid 2px black;
+}
+
+.blocos div {
+    background-color: brown;
+    font-size: 2rem;
+    padding: 40px;
+}
+
+@media(max-width: 800px) {
+    .btn-blue {
+        background-color: aqua;
+    }
+}
+
+@media(max-width: 500px) {
+    .btn-blue {
+        background-color: rgb(106, 0, 255);
+    }
+
+    .blocos {
+        flex-direction: column;
+    }
+
+    .blocos div {
+        font-size: 1rem;
+    }
+}
+
