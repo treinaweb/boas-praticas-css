@@ -1,3 +1,4 @@
+/* inicio da section */
 .btn-default {
     padding: 5px 20px;
     font-size: 1.2rem;
@@ -21,10 +22,39 @@
 }
 
 .blocos div {
+    padding: 40px; 
+    font-size: 2rem; 
     background-color: brown;
-    font-size: 2rem;
-    padding: 40px;
 }
+/* Fim section */
+
+/* 
+1- Posicionamento (position: absolute;)
+2- Box model (width, hight, padding, margin)
+3- Tipografia (font-weight, font-size, font-family)
+4- Visual (color, background, border-radius, border)
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Inicio Breakpoints */
 
 @media(max-width: 800px) {
     .btn-blue {
@@ -45,4 +75,6 @@
         font-size: 1rem;
     }
 }
+
+/* Fim Breakpoints */
 
