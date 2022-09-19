@@ -1,0 +1,41 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  list-style: none;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.section-x {
+  background-color: #000;
+}
+
+.btn {
+  padding: 30px;
+  background-color: white;
+  font-size: 0.8rem;
+}
+
+.btn-sucess {
+  background-color: green;
+}
+
+.btn-sucess {
+  color: red !important;
+}/*# sourceMappingURL=main.css.map */
