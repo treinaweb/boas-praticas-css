@@ -1,0 +1,16 @@
+/* inicio da section */
+.btn-default {
+  padding: 5px 20px;
+  font-size: 1.2rem;
+  border-radius: 5px;
+}
+
+.btn-green {
+  color: black;
+  background-color: rgb(87, 135, 87);
+}
+
+.btn-blue {
+  color: white;
+  background-color: blue;
+}

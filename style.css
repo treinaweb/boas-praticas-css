@@ -1,40 +1,6 @@
-/* inicio da section */
-.btn-default {
-    padding: 5px 20px;
-    font-size: 1.2rem;
-    border-radius: 5px;
-}
-
-.btn-green {
-    color: black;
-    background-color: green;
-}
-
-.btn-blue {
-    color: white;
-    background-color: blue;
-}
-
-.blocos {
-    display: flex;
-    flex-direction: row;
-    border: solid 2px black;
-}
-
-.blocos div {
-    padding: 40px; 
-    font-size: 2rem; 
-    background-color: brown;
-}
-/* Fim section */
-
-/* 
-1- Posicionamento (position: absolute;)
-2- Box model (width, hight, padding, margin)
-3- Tipografia (font-weight, font-size, font-family)
-4- Visual (color, background, border-radius, border)
-
-*/
+@import url("style/btn.css");
+@import url("style/main.css");
+@import url("style/breakpoints.css");
 
 
 
@@ -54,27 +20,6 @@
 
 
 
-/* Inicio Breakpoints */
 
-@media(max-width: 800px) {
-    .btn-blue {
-        background-color: aqua;
-    }
-}
 
-@media(max-width: 500px) {
-    .btn-blue {
-        background-color: rgb(106, 0, 255);
-    }
-
-    .blocos {
-        flex-direction: column;
-    }
-
-    .blocos div {
-        font-size: 1rem;
-    }
-}
-
-/* Fim Breakpoints */
 

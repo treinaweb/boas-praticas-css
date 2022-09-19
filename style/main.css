@@ -1,0 +1,11 @@
+.blocos {
+    display: flex;
+    flex-direction: row;
+    border: solid 2px black;
+}
+
+.blocos div {
+    padding: 40px; 
+    font-size: 2rem; 
+    background-color: brown;
+}
